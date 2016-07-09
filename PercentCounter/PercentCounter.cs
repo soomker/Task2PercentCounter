@@ -8,9 +8,9 @@ namespace PercentCounter
 {
   public static class Counter
     {
-       static Dictionary<string, int> percents = new Dictionary<string, int> {{"USA",10}, {"Ukraine",15}, {"Norway",30}};
+       static Dictionary<string, int> percents = new Dictionary<string, int> {{"USA",10}, {"UKRAINE",15}, {"NORWAY",30}};
 
-       static Dictionary<string, int> additPercents = new Dictionary<string, int> { { "Ukraine", 3 } };
+       static Dictionary<string, int> additPercents = new Dictionary<string, int> { { "UKRAINE", 3 } };
        public static int GetPercent(string country, out int additionalPercent)
         {
             try
