@@ -16,7 +16,8 @@ namespace PercentCounter
             try
             {
                 if (additPercents.TryGetValue(country, out additionalPercent))
-                Console.WriteLine("This country " + "( " + country + " ) " + "have additional percent " + additionalPercent.ToString());
+                    Console.WriteLine("This country " + "( " + country + " ) " + "have additional percent " + additionalPercent.ToString());
+                else additionalPercent = 0;
                 return percents[country];
             }
             catch (Exception)
