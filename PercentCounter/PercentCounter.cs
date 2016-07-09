@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PercentCounter
 {
-    static class Counter
+  public static class Counter
     {
        static Dictionary<string, int> percents = new Dictionary<string, int> {{"USA",10}, {"Ukraine",15}, {"Norway",30}};
        
