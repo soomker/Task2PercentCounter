@@ -20,7 +20,10 @@ namespace PercentCounter
 
             int percent;
             if (percents.TryGetValue(country, out percent))
+            {
+                Msg = String.Empty;
                 return percent;
+            }
             else
             {
                 Msg = "Don't have any info about this  country!!!";
