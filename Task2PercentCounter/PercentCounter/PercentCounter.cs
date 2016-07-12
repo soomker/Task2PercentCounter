@@ -23,7 +23,7 @@ namespace PercentCounter
                 return percent;
             else
             {
-                Msg = "Don't have any info about this country!!!";
+                Msg = "Don't have any info about this  country!!!";
                 return 0;
             }
             
