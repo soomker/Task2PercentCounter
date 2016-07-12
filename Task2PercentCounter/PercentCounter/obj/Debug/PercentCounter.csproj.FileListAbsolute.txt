@@ -1,0 +1,10 @@
+D:\Study\CsharpTasks\Task2\PercentCounter\bin\Debug\PercentCounter.dll
+D:\Study\CsharpTasks\Task2\PercentCounter\bin\Debug\PercentCounter.pdb
+D:\Study\CsharpTasks\Task2\PercentCounter\obj\Debug\PercentCounter.csprojResolveAssemblyReference.cache
+D:\Study\CsharpTasks\Task2\PercentCounter\obj\Debug\PercentCounter.dll
+D:\Study\CsharpTasks\Task2\PercentCounter\obj\Debug\PercentCounter.pdb
+D:\Study\CsharpTasks\Task2\Task2PercentCounter\PercentCounter\bin\Debug\PercentCounter.dll
+D:\Study\CsharpTasks\Task2\Task2PercentCounter\PercentCounter\bin\Debug\PercentCounter.pdb
+D:\Study\CsharpTasks\Task2\Task2PercentCounter\PercentCounter\obj\Debug\PercentCounter.csprojResolveAssemblyReference.cache
+D:\Study\CsharpTasks\Task2\Task2PercentCounter\PercentCounter\obj\Debug\PercentCounter.dll
+D:\Study\CsharpTasks\Task2\Task2PercentCounter\PercentCounter\obj\Debug\PercentCounter.pdb
