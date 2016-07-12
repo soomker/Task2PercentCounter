@@ -9,23 +9,24 @@ namespace PercentCounter
   public static class Counter
     {
        static Dictionary<string, int> percents = new Dictionary<string, int> {{"USA",10}, {"UKRAINE",15}, {"NORWAY",30}};
-
+        public static string Msg { get; private set; }
        static Dictionary<string, int> additPercents = new Dictionary<string, int> { { "UKRAINE", 3 } };
        public static int GetPercent(string country, out int additionalPercent)
+
         {
-            try
+            if (additPercents.TryGetValue(country, out additionalPercent))
+            { }
+            else additionalPercent = 0;
+
+            int percent;
+            if (percents.TryGetValue(country, out percent))
+                return percent;
+            else
             {
-                if (additPercents.TryGetValue(country, out additionalPercent))
-                    Console.WriteLine("This country " + "( " + country + " ) " + "have additional percent " + additionalPercent.ToString());
-                else additionalPercent = 0;
-                return percents[country];
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("I don't have any info about this country");
-                additionalPercent = 0;
+                Msg = "Don't have any info about this country!!!";
                 return 0;
             }
+            
         }
     }
 }
